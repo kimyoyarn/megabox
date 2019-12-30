@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>라이프시어터, 메가박스</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon-precomposed" href="images/favicon.png">
+
+        <!-- WEB Font -->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+
+        <!-- 자바스크립트/jQuery -->
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/swiper.js"></script>
+        <script src="js/custom.js"></script>       
+
+        <!-- CSS 스타일 -->
+        <link rel="stylesheet" href="css/swiper.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index.css">
+
+    </head>
+    <body>
+        <div id="wrap">
+            <!-- ==========header start========== -->
+            <header class="header">
+                <div class="row clearfix">
+                    <div id="logo_slogan01">
+                        <a href="index.html"><img src="images/logo_slogan.png" alt="로고와 슬로건"></a>
+                    </div>
+                    <div id="logo_slogan02">
+                        <a href="index.html">
+                            <img id="slogan" src="images/slogan.png" alt="슬로건">
+                            <img id="logo" src="images/logo.png" alt="로고">
+                        </a>
+                    </div>
+                    <nav class="nav">
+                        <ul class="clearfix">
+                            <li><a href="movie.html">영화</a></li>
+                            <li><a href="#">큐레이션</a></li>
+                            <li><a href="#">영화관</a></li>
+                            <li><a href="#">특별관</a></li>
+                            <li><a href="#">스토어</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li class="modal_open_btn">로그인</li>
+                        </ul>
+                    </nav>
+                    <ul id="tgl_btn">
+                        <li id="line01"></li>
+                        <li id="line02"></li>
+                        <li id="line03"></li>
+                    </ul>
+                </div>
+            </header>
+            <div id="info">
+                <ul>
+                    <li><span id="info_close">X</span></li>
+                    <li><button class="modal_open_btn">로그인</button></li>
+                    <li>
+                        <span>회원가입</span>
+                        <span>lD/PW찾기</span>
+                        <span>비회원 예매확인</span>
+                    </li>
+                    <li>
+                        <span><a href="#">영화</a></span>
+                        <span><a href="#">큐레이션</a></span>
+                        <br>
+                        <span><a href="#">영화관</a></span>
+                        <span><a href="#">특별관</a></span>
+                        <br>
+                        <span><a href="#">스토어</a></span>
+                        <span><a href="#">이벤트</a></span>
+                    </li>
+                </ul>
+            </div>
+            <!-- ==========header end========== -->
+
+            <!-- ==========banner start========== -->
+            <section class="section banner">
+                <div class="banner_menu">
+                    <ul class="row clearfix">
+                        <li id="banner_menu01">
+                            <ul class="clearfix">
+                                <li><a href="#">전체메뉴</a></li>
+                                <li><a href="#">필름 소사이어티</a></li>
+                                <li>|</li>
+                                <li><a href="#">클레식 소사이어티</a></li>
+                            </ul>
+                        </li>
+                        <li class="clearfix" id="banner_menu02">
+                            <ul class="clearfix" id="banner_menu_sub01">
+                                <li><a href="#">고객센터</a></li>
+                                <li>|</li>
+                                <li><a href="#">멤버십</a></li>
+                                <li>|</li>
+                                <li><a href="#">VIP</a></li>
+                            </ul>
+                            <ul class="clearfix" id="banner_menu_sub02">
+                                <li><a href="#">상영시간표</a></li>
+                                <li><a href="#">빠른 예매</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- 첫번째 슬라이드 -->
+                        <div class="swiper-slide"> 
+                            <div class="slide_box" id="slide_box01">
+                                <div class="banner_story">
+                                    <div class="row">
+                                        <h1>신의 한 수:귀수편</h1>
+                                        <h3>The Divine Move 2: The Wrathful</h3>
+                                        <h2>세상은 둘 중 하나야</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 첫번째 슬라이드 끝 -->
+
+                        <!-- 두번째 슬라이드 -->
+                        <div class="swiper-slide"> 
+                            <div class="slide_box" id="slide_box02">
+                                <div class="banner_story">
+                                    <div class="row">
+                                        <h1>두 번째 라이프 다이어리</h1>
+                                        <h3>LIFE DIARY 2020</h3>
+                                        <h2>1년을 기록하는 한 권의 책</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 두번째 슬라이드 끝 -->
+
+                        <!-- 세번째 슬라이드 -->
+                        <div class="swiper-slide"> 
+                            <div class="slide_box" id="slide_box03">
+                            </div>
+                        </div>
+                        <!-- 세번째 슬라이드 끝 -->
+
+                        <!-- 네번째 슬라이드 -->
+                        <div class="swiper-slide"> 
+                            <div class="slide_box" id="slide_box04">
+                                <div class="banner_story">
+                                    <div class="row">
+                                        <h1>뮤지컬 몬테 크리스토</h1>
+                                        <h3>MONTE CRISTO</h3>
+                                        <h2>뮤지컬로 돌아온 전설적인 복수극</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 네번째 슬라이드 끝 -->
+
+                        <!-- 다섯번째 슬라이드 -->
+                        <div class="swiper-slide"> 
+                            <div class="slide_box" id="slide_box05">
+                            </div>
+                        </div>
+                        <!-- 다섯번째 슬라이드 끝 -->
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+            <!-- ==========banner end========== -->
+
+            <!-- ==========movie start========== -->
+            <section class="section" id="movie">
+                <div class="row">
+                    <div class="sec_top">
+                        <h2 class="sec_tit">영화예매</h2>
+                        <ul class="clearfix" id="movie_tit">
+                            <li class="active" id="num01list">박스오피스</li>
+                            <li>최신개봉작</li>
+                            <li>상영예정작</li>
+                            <li>큐레이션</li>
+                        </ul>
+                    </div>
+                    <div class="sec_bottom">
+                        <!-- swiper slider2 박스오피스-->
+                        <div class="swiper-container2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster01.jpg" alt="poster01">
+                                            <div class="poster_num">1</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">터미네이터</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster02.jpg" alt="poster02">
+                                            <div class="poster_num">2</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">엔젤 해즈 폴른</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster03.jpg" alt="poster03">
+                                            <div class="poster_num">3</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">날씨의 아이</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster04.jpg" alt="poster04">
+                                            <div class="poster_num">4</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_12">12</span>
+                                            <span class="poster_info_tit">몬테크리스토</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster05.jpg" alt="poster05">
+                                            <div class="poster_num">5</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_all">전체</span>
+                                            <span class="poster_info_tit">겨울왕국 2</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster06.jpg" alt="poster06">
+                                            <div class="poster_num">6</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">신의 한 수: 귀수편</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster07.jpg" alt="poster07">
+                                            <div class="poster_num">7</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_12">12</span>
+                                            <span class="poster_info_tit">블랙머니</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster08.jpg" alt="poster08">
+                                            <div class="poster_num">8</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_12">12</span>
+                                            <span class="poster_info_tit">82년생 김지영</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- swiper slider2 최신개봉작-->
+                        <div class="swiper-container2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster03.jpg" alt="poster03">
+                                            <div class="poster_num">1</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">터미네이터</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster04.jpg" alt="poster04">
+                                            <div class="poster_num">2</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">엔젤해즈폴른</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster02.jpg" alt="poster02">
+                                            <div class="poster_num">3</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">날씨의 아이</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster01.jpg" alt="poster01">
+                                            <div class="poster_num">4</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">몬테크리스토</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster05.jpg" alt="poster05">
+                                            <div class="poster_num">5</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">겨울왕국 2</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster06.jpg" alt="poster06">
+                                            <div class="poster_num">6</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">신의한수:귀수편</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster07.jpg" alt="poster07">
+                                            <div class="poster_num">7</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">블랙머니</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster08.jpg" alt="poster08">
+                                            <div class="poster_num">8</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">82년생 김지영</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- swiper slider2 상영예정작-->
+                        <div class="swiper-container2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster04.jpg" alt="poster04">
+                                            <div class="poster_num">1</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">터미네이터</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster03.jpg" alt="poster03">
+                                            <div class="poster_num">2</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">엔젤 해즈 폴른</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster02.jpg" alt="poster02">
+                                            <div class="poster_num">3</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">날씨의 아이</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster01.jpg" alt="poster01">
+                                            <div class="poster_num">4</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">몬테크리스토</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster05.jpg" alt="poster05">
+                                            <div class="poster_num">5</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">겨울왕국 2</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster06.jpg" alt="poster06">
+                                            <div class="poster_num">6</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">신의 한 수: 귀수편</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster07.jpg" alt="poster07">
+                                            <div class="poster_num">7</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">블랙머니</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster08.jpg" alt="poster08">
+                                            <div class="poster_num">8</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">82년생 김지영</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- swiper slider2 큐레이션-->
+                        <div class="swiper-container2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster02.jpg" alt="poster02">
+                                            <div class="poster_num">1</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">터미네이터</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster04.jpg" alt="poster04">
+                                            <div class="poster_num">2</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">엔젤 해즈 폴른</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster01.jpg" alt="poster01">
+                                            <div class="poster_num">3</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">날씨의 아이</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster03.jpg" alt="poster03">
+                                            <div class="poster_num">4</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">몬테크리스토</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster05.jpg" alt="poster05">
+                                            <div class="poster_num">5</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">겨울왕국 2</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster06.jpg" alt="poster06">
+                                            <div class="poster_num">6</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">신의 한 수: 귀수편</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster07.jpg" alt="poster07">
+                                            <div class="poster_num">7</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">블랙머니</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="poster_base">
+                                        <div class="poster">
+                                            <img src="images/poster08.jpg" alt="poster08">
+                                            <div class="poster_num">8</div>
+                                            <div class="poster_icon">
+                                                <div>MX</div>
+                                                <div>BOUTIQUE</div>
+                                            </div>
+                                        </div>
+                                        <div class="poster_info">
+                                            <span class="poster_info_age age_15">15</span>
+                                            <span class="poster_info_tit">82년생 김지영</span>
+                                            <div class="poster_info_btn clearfix">
+                                                <a href="#">상세보기</a>
+                                                <a href="#">예매하기</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==========movie end========== -->
+
+            <!-- ==========event start========== -->
+            <section class="section" id="event">
+                <div class="row">
+                    <div class="sec_top">
+                        <h2 class="sec_tit">새로운 이벤트</h2>
+                    </div>
+                    <div class="sec_bottom clearfix">
+                        <div id="event_left">
+                            <!-- swiper slider3-->
+                            <div class="swiper-container3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="images/new_event_banner01.jpg" alt="new_event_banner01">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/new_event_banner02.jpg" alt="new_event_banner02">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/new_event_banner03.jpg" alt="new_event_banner03">
+                                    </div>
+                                </div>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination" id="event_pagination"></div>
+                            </div>
+                            <div class="clearfix">
+                                <div id="img01"><img src="images/new_event01.jpg" alt="new_event01"></div>
+                                <div id="img02"><img src="images/new_event02.jpg" alt="new_event02"></div>
+                            </div>
+                        </div>
+                        <div id="event_right">
+                            <img src="images/new_event03.jpg" alt="new_event03">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- ==========event end========== -->
+
+            <!-- ==========grand start========== -->
+            <section class="section" id="grand">
+                <div class="row">
+                    <div id="grand_open">
+                        <div id="grand_date">
+                            <img src="images/granddate.png" alt="granddate">
+                        </div>
+                        <ul class="grand_txt clearfix">
+                            <li class="re_open">
+                                <div>경기도</div>
+                                <div>안양</div>
+                                <div>11월 21일</div>
+                                <div class="grand_tit">리뉴얼 오픈</div>
+                            </li>
+                            <li class="re_open">
+                                <div>강원도</div>
+                                <div>강릉</div>
+                                <div>12월 24일</div>
+                                <div class="grand_tit">리뉴얼 오픈</div>
+                            </li>
+                            <li class="re_open">
+                                <div>서울</div>
+                                <div>용산</div>
+                                <div>12월 31일</div>
+                                <div class="grand_tit">리뉴얼 오픈</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- ==========grand end========== -->
+            <!-- ==========join_event start========== -->
+            <section class="section" id="join_event">
+                <div class="row">
+                    <div class="sec_top">
+                        <h2 class="sec_tit">제휴 이벤트</h2>
+                    </div>
+                    <div class="sec_bottom ">
+                        <div id="join_event_left">
+                            <div class="clearfix">
+                                <div id="join_img01"><img src="images/join_event01.jpg" alt="join_event01"></div>
+                                <div id="join_img02"><img src="images/join_event02.jpg" alt="join_event02"></div>
+                                <div id="join_img03"><img src="images/join_event03.jpg" alt="join_event03"></div>
+                                <div id="join_img04"><img src="images/join_event04.jpg" alt="join_event04"></div>
+                            </div>
+                        </div>
+                        <div id="join_event_right">
+                            <img src="images/join_event05.jpg" alt="join_event05">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==========join_event end========== -->
+            <!-- ==========notice start========== -->
+            <section class="section" id="notice">
+                <div class="row clearfix">
+                    <article class="notice_art" id="notice_art01">
+                        <h2 class="sec_tit">공지사항</h2>
+                        <div class="notice_box">
+                            <ul class="notice_tit clearfix">
+                                <li id="notice_txt01_btn">전체공지</li>
+                                <li id="notice_txt02_btn">영화관 공지</li>
+                            </ul>
+                            <ul class="notice_txt" id="notice_txt01">
+                                <li>
+                                    <p><span>전체</span>|2019.12.02</p>
+                                    <p>[무대인사]신의한수 배우 싸인회</p>
+                                </li>
+                                <li>
+                                    <p><span>전체</span>|2019.12.02</p>
+                                    <p>[무대인사]신의한수 배우 싸인회</p>
+                                </li>
+                                <li>
+                                    <p><span>전체</span>|2019.12.02</p>
+                                    <p>[공지]신의한수 배우 싸인회</p>
+                                </li>
+                                <li>
+                                    <p><span>전체</span>|2019.12.02</p>
+                                    <p>[공지]신의한수 배우 싸인회</p>
+                                </li>
+                            </ul>
+                            <ul class="notice_txt" id="notice_txt02">
+                                <li>
+                                    <p><span>영등포</span>|2019.12.02</p>
+                                    <p>[무대인사]신의한수 배우 싸인회</p>
+                                </li>
+                                <li>
+                                    <p><span>용산</span>|2019.12.02</p>
+                                    <p>[무대인사]신의한수 배우 싸인회</p>
+                                </li>
+                                <li>
+                                    <p><span>마포</span>|2019.12.02</p>
+                                    <p>[공지]신의한수 배우 싸인회</p>
+                                </li>
+                                <li>
+                                    <p><span>영통</span>|2019.12.02</p>
+                                    <p>[공지]신의한수 배우 싸인회</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="notice_art clearfix" id="notice_art02">
+                        <h2 class="sec_tit">메가박스 할인카드</h2>
+                        <div class="notice_box">
+                            <ul class="card clearfix">
+                                <li><img src="images/sale_card01.png" alt="sale_card01"></li>
+                                <li>
+                                    <span>T멤버십 할인</span><br>
+                                    누구나 30% 할인<br>
+                                    (1일 1회)
+                                </li>
+                            </ul>
+                            <ul class="card clearfix">
+                                <li><img src="images/sale_card02.png" alt="sale_card02"></li>
+                                <li>
+                                    <span>LG멤버십 할인</span><br>
+                                    회원본인만 40% 할인<br>
+                                    (1일 1회)
+                                </li>
+                            </ul>
+                            <ul class="card clearfix">
+                                <li><img src="images/sale_card03.png" alt="sale_card03"></li>
+                                <li>
+                                    <span>Olleh 멤버십 할인</span><br>
+                                    누구나 30% 할인<br>
+                                    (1일 1회)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="notice_box" id="sub_card_box">
+                            <ul class="card clearfix">
+                                <li><img src="images/sale_card01.png" alt="sale_card01"></li>
+                                <li>
+                                    <span>T멤버십 할인</span><br>
+                                    누구나 30% 할인<br>
+                                    (1일 1회)
+                                </li>
+                            </ul>
+                            <ul class="card clearfix">
+                                <li><img src="images/sale_card02.png" alt="sale_card02"></li>
+                                <li>
+                                    <span>LG멤버십 할인</span><br>
+                                    회원본인만 40% 할인<br>
+                                    (1일 1회)
+                                </li>
+                            </ul>
+                            <ul class="card clearfix">
+                                <li><img src="images/sale_card03.png" alt="sale_card03"></li>
+                                <li>
+                                    <span>Olleh 멤버십 할인</span><br>
+                                    누구나 30% 할인<br>
+                                    (1일 1회)
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="notice_art" id="notice_art03">
+                        <h2 class="sec_tit">고객센터</h2>
+                        <div class="notice_box clearfix">
+                            <div class="right_border bottom_border"><h6>1:1문의</h6></div>
+                            <div class="bottom_border"><h6>단체관람/대관문의</h6></div>
+                            <div class="right_border"><h6>자주묻는질문</h6></div>
+                            <div><h6>분실물 문의/접수</h6></div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <!-- ==========notice end========== -->
+            <!-- ==========footer start========== -->
+            <section class="section" id="footer">
+                <div class="row clearfix">
+                    <div class="footer_info">
+                        <div class="footer_logo">
+                            <img src="images/footer_logo.png" alt="footer_logo">
+                        </div>
+                        <div class="footer_nav">
+                            <a href="#">회사소개</a> |
+                            <a href="#">채용정보</a> |
+                            <a href="#">제휴/광고/부대사업 문의</a> |
+                            <a href="#">이용약관</a> |
+                            <a href="#">개인정보 처리방침</a> |
+                            <a href="#">고객센터</a> |
+                            <a href="#">윤리경영</a>
+                        </div>
+                        <address class="footer_address">
+                            <p>서울특별시 강남구 도산대로 156, 2층 메가박스중앙(주) (논현동, 중앙엠앤비사옥)</p>
+                            <p>대표자명 김진선 | 개인정보보호 책임자 경영지원실 실장 박영진</p>
+                            <p>사업자등록번호 211-86-59478 | 통신판매업신고번호 제 833호</p>
+                        </address>
+                        <div class="footer_copyright">
+                            <p>Copyright 2014 by MegaboxJoongAng, Inc. All rights reserved</p>
+                        </div>
+                    </div>
+                    <div class="footer_sns">
+                        <ul class="sns_logo">
+                            <li><a href="#"><img src="images/sns_icon01.png" alt="sns_icon01"></a></li>
+                            <li><a href="#"><img src="images/sns_icon02.png" alt="sns_icon02"></a></li>
+                            <li><a href="#"><img src="images/sns_icon03.png" alt="sns_icon03"></a></li>
+                            <li><a href="#"><img src="images/sns_icon04.png" alt="sns_icon04"></a></li>
+                            <li><a href="#"><img src="images/sns_icon05.png" alt="sns_icon05"></a></li>
+                        </ul>
+                        <p class="sns_tel"><span>ARS</span> 1544-0070</p>
+                    </div>
+
+                </div>
+            </section>
+            <!-- ==========footer end========== -->
+        </div>
+            <!-- ==========wrap end========== -->
+            <!-- ==========modal start========== -->
+            <div class="container">
+                <div class="modal">
+                    <div class="modal_header clearfix">
+                        <div class="modal_header_sub">공백</div>
+                        <h3 class="modal_header_sub">로그인</h3>
+                        <h2 class="modal_header_sub" id="modal_close_btn">X</h2>
+                    </div>
+                    <div class="modal_section">
+                        <div class="info_input clearfix">
+                            <div class="info_input_left">
+                                <input type="text" placeholder="아이디" id="user_id">
+                                <input type="text" placeholder="패스워드" id="user_pass">
+                            </div>
+                            <div class="info_input_right">
+                                <button id="login_btn">로그인</button>
+                            </div>
+                        </div>
+                        <div class="info_save">
+                            <input type="checkbox" id="auto_login">
+                            <label for="auto_login">자동로그인</label>
+                        </div>
+                    </div>
+                    <div class="modal_footer">
+                        <ul class="clearfix">
+                            <li>ID/PW 찾기</li>
+                            <li>회원가입</li>
+                            <li>휴면계정복구</li>
+                        </ul>
+                    </div>
+                    <div class="modal_adv">
+                        <div id="modal_img">
+                            <img src="images/modal.jpg" alt="modal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==========modal end========== -->
+
+    </body>
+</html>
